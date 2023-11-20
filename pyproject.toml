@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-playground"
+version = "0.1.0"
+description = "A simple LLM playground using Chainlit"
+authors = ["Martin Gauthier <gauthiermartin86@gmail.com>"]
+repository = "https://github.com/gauthiermartin/llm-playground"
+readme = "README.md"
+packages = [{include = "llm_playground"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11.6,<3.12"
+chainlit = "^0.7.603"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
